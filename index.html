@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Poppins:ital,wght@0,200;0,300;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <div class="hero">
+            <nav>
+                <img src="logo.png" alt="click-logo" class="logo">
+                <ul>
+                    <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Skills</a></li>
+                <li><a href="">Contact</a></li>
+                </ul>
+                <img src="moon.png" alt="click-moon" id="icon">
+            </nav>
+    
+            <div class="info">
+                <h1>I'm <span>Rahul </span>Singh Marskoley</h1>
+                <p>This is my Portfolio website to showcase my all works related to web <br>development and designing.</p>
+                <a href="RAHUL SINGH MARSKOLEY.pdf">Download CV</a>
+            </div>
+    
+            <div class="img-box">
+                <img src="Abstract-red-bannet-design-on-transparent-background-PNG.png" alt="bg" class="back-img">
+                <img src="Rahul.png" alt="bg" class="main-img">
+            </div>
+        </div>    
+    </section>
+
+    <hr>
+
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="copy.png" alt="about me" class="sec-img">
+            </div>
+
+            <div class="about-text">
+                <h2>About Me</h2>
+                <h5>I am a Dynamic Creative Designer <br> <span>Photographer and Traveller</span></h5>
+                <p> I have done my schooling from Nirmal Hr. Sec. School Jagdalpur(C.G). And completed my B.Tech in Computer Science Engineering from Acropolis Institute Of Technology And Research, Indore(M.P). My hobbies are Travelling, Photography and Cooking. I have done certification in C++, Web Development, SAP ABAP and SQL. I have job experience in TaskUs as a Teammate.</p> <br>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="skills" id="skills">
+            <h2><u>Skills:</u></h2> <br>
+            <ul type="">
+                <li>MySql</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section class="contact" id="contact">
+            <h2> <u>Contact <span>Me:</span></u></h2>
+            <div class="con">
+                <a href="mailto: rahul10.rs75@gmail.com"><i class="fa-solid fa-envelope"></i>rahul10.rs75@gmail.com</a> <br>
+                <a href="tel: 9406407619"><i class="fa-duotone fa-phone"></i>9406407619</a>
+                
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="social" id="social">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/rahul-singh-m-42623310b" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100008351207618&mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://instagram.com/rahul_marskoley?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" target="_blank"><i class="fab fa-instagram-square"></i></a>
+            
+            </div>
+    
+        <script>
+            var icon = document.getElementById("icon");
+    
+            icon.onclick = function(){
+                document.body.classList.toggle("dark-theme");
+                if(document.body.classList.contains("dark-theme")){
+                    icon.src = "sun.png";
+                }
+                else{
+                        icon.src = "moon.png";
+                    }
+            }
+        </script>
+        </section>
+</body>
+</html>
